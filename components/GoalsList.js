@@ -1,6 +1,6 @@
-import { FlatList, StyleSheet, View } from "react-native";
-import React from "react";
-import GoalItem from "./GoalItem";
+import { FlatList, StyleSheet, View } from 'react-native';
+import React from 'react';
+import GoalItem from './GoalItem';
 
 const GoalsList = ({ goalsList, onDeleteGoal }) => {
   const handleDeleteGoal = (goalIndex) => {

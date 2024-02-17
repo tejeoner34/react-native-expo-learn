@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { StyleSheet, View, Button } from "react-native";
-import GoalsInput from "./components/GoalsInput";
-import GoalsList from "./components/GoalsList";
-import { StatusBar } from "expo-status-bar";
+import { useState } from 'react';
+import { StyleSheet, View, Button } from 'react-native';
+import GoalsInput from './components/GoalsInput';
+import GoalsList from './components/GoalsList';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   const [showInputModal, setShowInputModal] = useState(false);
@@ -43,7 +43,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   appContainer: {
-    justifyContent: "space-between",
+    justifyContent: 'space-between',
     flex: 1,
     padding: 8,
     paddingTop: 30,

@@ -1,5 +1,5 @@
-import { Pressable, StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import React from 'react';
 
 const GoalItem = ({ goalText, onTapItem }) => {
   const handleRemoveItem = () => {
@@ -22,18 +22,18 @@ export default GoalItem;
 
 const styles = StyleSheet.create({
   listItem: {
-    backgroundColor: "#3870a8",
+    backgroundColor: '#3870a8',
     borderRadius: 5,
     margin: 5,
   },
   listItemText: {
-    color: "white",
+    color: 'white',
     padding: 5,
   },
   activeButton: {
-    color: "red",
+    color: 'red',
   },
   activeButtonAndroid: {
-    color: "purple",
+    color: 'purple',
   },
 });
