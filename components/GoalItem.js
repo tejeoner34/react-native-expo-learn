@@ -22,7 +22,7 @@ export default GoalItem;
 
 const styles = StyleSheet.create({
   listItem: {
-    backgroundColor: "blue",
+    backgroundColor: "#3870a8",
     borderRadius: 5,
     margin: 5,
   },

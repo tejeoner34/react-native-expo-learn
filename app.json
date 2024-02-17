@@ -4,6 +4,7 @@
     "slug": "first-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "backgroundColor": "#1a446e",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
